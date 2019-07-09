@@ -1,0 +1,19 @@
+server:
+  port: 8091
+spring:
+  cloud:
+    stream:
+      kafka:
+        binder:
+          brokers: localhost:9092
+          min-partition-count: 3
+          replication-factor: 1
+        bindings:
+          kafka-poc:
+            consumer:
+              start-offset: earliest
+      bindings:
+        kafka-receiver-topic:
+          destination: kafka.spring.poc
+          content-type: application/json
+          group: kafka.service.two.group

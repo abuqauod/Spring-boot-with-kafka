@@ -1,7 +1,0 @@
-{
-  "timestamp": "2019-07-07T14:16:21.093+0000",
-  "status": 500,
-  "error": "Internal Server Error",
-  "message": "Payload must not be null",
-  "path": "/requests"
-}

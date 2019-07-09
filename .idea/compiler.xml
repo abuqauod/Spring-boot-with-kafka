@@ -20,7 +20,6 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="receiver-service" options="-parameters" />
       <module name="sender-service" options="-parameters" />
-      <module name="spring-boot-with-kafka" options="-parameters" />
     </option>
   </component>
 </project>
